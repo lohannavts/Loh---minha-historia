@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>História de Romance no Parque</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>História de Romance no Parque</h1>
+    <p id="historia">Você está em um parque tranquilo e começa a caminhar por uma trilha. De repente, você chega a uma bifurcação.</p>
+
+    <div id="opcoes">
+      <button onclick="escolherCaminho('esquerda')">Ir pela trilha da esquerda</button>
+      <button onclick="escolherCaminho('direita')">Ir pela trilha da direita</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
